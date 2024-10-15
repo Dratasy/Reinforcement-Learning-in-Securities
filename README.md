@@ -12,7 +12,7 @@ Cấu trúc thư mục của dự án như sau:
 ├── src/
 ├── tests/
 ├── outputs/
-└── README.md
+└── README.md```
 
 ## 3. Cài đặt và Hướng dẫn sử dụng
 ### 3.1 Clone repository:
