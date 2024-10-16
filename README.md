@@ -1,17 +1,21 @@
 # Tên Dự Án
 
 ## 1. Giới thiệu
-[Tóm tắt về mục tiêu và lý do dự án này được thực hiện.]
+Đây là một cách tiếp cận khác với bài toán dự đoán xu hướng giá cổ phiếu. Cách tiếp cận truyền thống là sử dụng Học giám sát với các mô hình CNN, LSTM, GNN để dự đoán đầu ra là xu hướng giá. Trong bài toán này, tôi sẽ dùng Reinforcement Learning với việc thiết kế hàm phần thưởng để đạt được độ chính xác dự đoán xu hướng giá tốt hơn.
 
 ## 2. Cấu trúc thư mục
 Cấu trúc thư mục của dự án như sau:
 
 ```bash
+├── agents/
+├── configs/
 ├── data/
+├── data_loaders/
+├── environments/
+├── executors/
 ├── notebooks/
-├── src/
-├── tests/
-├── outputs/
+├── results/
+├── utils/
 └── README.md
 ```
 
