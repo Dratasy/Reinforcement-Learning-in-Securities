@@ -1,7 +1,7 @@
 # Xây dựng mô hình học tăng cường trong hoạt động đầu tư tài chính
 
 ## 1. Giới thiệu
-Bài toán tập trung ở đây là dự đoán xu hướng giá của cổ phiếu. Cách tiếp cận truyền thống là sử dụng Học giám sát với các mô hình CNN, LSTM, GNN để dự đoán đầu ra là xu hướng giá. Những năm gần đây, RL (Reinforcement Learning) đã được sử dụng rất nhiều trong tài chính như tối ưu quản lý danh mục đầu tư hay xây dựng chiến lược giao dịch tự động. Ở dự án này, tôi sẽ dùng RL để giải bài toán này.
+Bài toán tập trung ở đây là dự đoán xu hướng giá của cổ phiếu. Cách tiếp cận truyền thống là sử dụng Học giám sát với các mô hình CNN, LSTM, GNN để dự đoán đầu ra là xu hướng giá. Những năm gần đây, RL (Reinforcement Learning) đã được sử dụng rất nhiều trong tài chính như tối ưu quản lý danh mục đầu tư hay xây dựng chiến lược giao dịch tự động. Ở dự án này, RL được chọn để giải bài toán này.
 
 ## 2. Cấu trúc thư mục
 Cấu trúc thư mục của dự án như sau:
@@ -14,6 +14,7 @@ Cấu trúc thư mục của dự án như sau:
 - **notebooks**: chứa notebook sử dụng trong dự án
 - **results**: lưu trữ kết quả huấn luyện và kiểm thử
 - **utils**: chứa các files khác
+- **images**: chứa các ảnh trong dự án
 
 ## 3. Cài đặt và Hướng dẫn sử dụng
 ### 3.1 Clone repository:
@@ -39,7 +40,7 @@ luyện và kiểm thử. Chi tiết độ dài của dữ liệu của mỗi t�
 
 ### 4.2 Kết quả thí nghiệm
 Tiến hành thí nghiệm đo độ chính xác và F1-Score với tập kiểm thử của VN30. Thí nghiệm sẽ được lặp lại 30 lần tương ứng
-với 30 mã chứng khoán của VN30. Giá trị độ chính xác và F1-Score trung bình của mô hình như sau:
+với 30 mã chứng khoán của VN30. Giá trị độ chính xác và F1-Score trung bình của 30 mã như sau:
 
 ![Kết quả mô hình trên tập kiểm thử](./images/result_benchmark.png "Kết quả mô hình trên tập kiểm thử")
 
