@@ -34,10 +34,14 @@ python main.py
 Bộ dữ liệu được sử dụng cho thực nghiệm là dữ liệu cổ phiếu VN30. Dữ liệu chia làm hai phần dành cho hai tập huấn
 luyện và kiểm thử. Chi tiết độ dài của dữ liệu của mỗi tập như sau:
 
+![Phân chia tập dữ liệu](./images/dataset.png "Phân chia tập dữ liệu")
+
+
 ### 4.2 Kết quả thí nghiệm
 Tiến hành thí nghiệm đo độ chính xác và F1-Score với tập kiểm thử của VN30. Thí nghiệm sẽ được lặp lại 30 lần tương ứng
-với 30 mã chứng khoán của VN30 với kết quả như sau:
+với 30 mã chứng khoán của VN30. Giá trị độ chính xác và F1-Score trung bình của mô hình như sau:
 
+![Kết quả mô hình trên tập kiểm thử](./images/result_benchmark.png "Kết quả mô hình trên tập kiểm thử")
 
-Chi tiết cách xử lý dữ liệu và mô hình huấn luyện, vui lòng xem [báo cáo chi tiết đính kèm](https://github.com/Dratasy/Reinforcement-Learning-in-Securities/blob/main/thesis_report.pdf) 
+Chi tiết cách xử lý dữ liệu, mô hình huấn luyện, và kết quả chi tiết của toàn bộ 30 mã, vui lòng xem [báo cáo chi tiết đính kèm](https://github.com/Dratasy/Reinforcement-Learning-in-Securities/blob/main/thesis_report.pdf) 
 
