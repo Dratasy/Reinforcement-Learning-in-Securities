@@ -1,7 +1,7 @@
 # Xây dựng mô hình học tăng cường trong hoạt động đầu tư tài chính
 
 ## 1. Giới thiệu
-Đây là một cách tiếp cận khác với bài toán dự đoán xu hướng giá cổ phiếu. Cách tiếp cận truyền thống là sử dụng Học giám sát với các mô hình CNN, LSTM, GNN để dự đoán đầu ra là xu hướng giá. Trong bài toán này, tôi sẽ dùng Reinforcement Learning với việc thiết kế hàm phần thưởng để đạt được độ chính xác dự đoán xu hướng giá tốt hơn.
+Bài toán tập trung ở đây là dự đoán xu hướng giá của cổ phiếu. Cách tiếp cận truyền thống là sử dụng Học giám sát với các mô hình CNN, LSTM, GNN để dự đoán đầu ra là xu hướng giá. Những năm gần đây, RL (Reinforcement Learning) đã được sử dụng rất nhiều trong tài chính như tối ưu quản lý danh mục đầu tư hay xây dựng chiến lược giao dịch tự động. Ở dự án này, tôi sẽ dùng RL để giải bài toán này.
 
 ## 2. Cấu trúc thư mục
 Cấu trúc thư mục của dự án như sau:
@@ -18,8 +18,8 @@ Cấu trúc thư mục của dự án như sau:
 ## 3. Cài đặt và Hướng dẫn sử dụng
 ### 3.1 Clone repository:
 ```bash
-git clone [link repo](https://github.com/Dratasy/Reinforcement-Learning-in-Securities.git)
-cd [Reinforcement-Learning-in-Securities]
+git clone https://github.com/Dratasy/Reinforcement-Learning-in-Securities.git
+cd Reinforcement-Learning-in-Securities
 ```
 ### 3.2 Cài đặt dependencies
 ```bash
